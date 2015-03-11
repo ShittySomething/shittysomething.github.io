@@ -1,0 +1,33 @@
+body {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    padding: 0;
+    margin: 10;
+}
+
+.is {
+    font-size: 38px;
+    letter-spacing: -2px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 10;
+    color: grey;
+}
+
+.foreword {
+    font-size: 24px;
+    letter-spacing: -2px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 20;
+}
+
+.front-image {
+}
