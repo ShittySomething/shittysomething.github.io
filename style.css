@@ -29,5 +29,11 @@ h1 {
     margin: 20;
 }
 
+.foreword a,
+.foreword a:visited,
+.foreword a:active {
+    color: #a00;
+}
+
 .front-image {
 }
