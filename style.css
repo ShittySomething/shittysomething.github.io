@@ -1,5 +1,5 @@
 body {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -7,26 +7,34 @@ h1 {
     font-family: 'Slabo 27px', serif;
     text-align: center;
     padding: 0;
-    margin: 10;
+    margin: 0;
 }
 
-.is {
-    font-size: 38px;
-    letter-spacing: -2px;
-    font-family: 'Karla', sans-serif;
+.preface {
+    font-size: 42px;
+    font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     padding: 0;
-    margin: 10;
+    margin: 10px;
     color: grey;
+}
+
+.front-image {
+    text-align: center;
+    padding: 0;
+}
+
+.navigation {
+    text-align: center;
+    margin: 0;
 }
 
 .foreword {
     font-size: 24px;
-    letter-spacing: -2px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     padding: 0;
-    margin: 20;
+    color: grey;
 }
 
 .foreword a,
@@ -35,5 +43,47 @@ h1 {
     color: #a00;
 }
 
-.front-image {
+.slick-slider {
+    margin: 30px auto 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -moz-user-select: none;
+}
+
+.slick-track {
+    height: 80px;
+}
+
+.slick-slide {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 30px;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-prev {
+    width: 50px;
+    height: 50px;
+    background-size: 40px auto;
+    background-image: url("assets/left.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    background-color: transparent;
+    color: transparent;
+}
+
+.slick-next {
+    width: 50px;
+    height: 50px;
+    background-size: 40px auto;
+    background-image: url("assets/right.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    background-color: transparent;
+    color: transparent;
 }

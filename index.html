@@ -2,21 +2,44 @@
   <head>
     <title>ShittySomething - Share your shitty mood!</title>
     <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1>Shitty something is ...</h1>
-    <p class="is">
-      the best way to share your shitty mood!
+    <h1>Shitty something</h1>
+    <p class="preface">Express your developer shitty mood with an awesome sticker!</p>
+    <p class="front-image">
+      <img src="assets/shittycoder.png" />
+    </p>
+    <div class="carousel">
+      <div>You feel a shitty coder when your manager<br/>tells you to do your work <i>"quick and dirty"</i></div>
+      <div>You feel a shitty coder when you do a huge refactoring<br/>and some of your colleagues destroys everything the very day after</div>
+      <div>You feel a shitty coder when you don't refactor a chain of ifs<br/>because you know nobody will appreciate it</div>
+      <div>You feel a shitty coder when you git pull --rebase<br/>instead of git rebase</div>
+      <div>You feel a shitty coder when somebody breaks an interface<br/>and you say: <i>"I won't touch this shit"</i></div>
+    </div>
+    <p class="navigation">
+      <button type="button" class="slick-prev"></button><button type="button" class="slick-next"></button>
     </p>
     <p class="foreword">
-      <img src="assets/shittycoder.png" class="front-image" />
+      follow us <a href="http://twitter.com/shittyartworks" target="_blank">@shittyartworks</a> to keep up to date
     </p>
-    <p class="foreword">
-      Have you ever felt you were doing something completely wrong?<br/>
-      If so, we are coming to the rescue!<br/>
-      <a href="http://twitter.com/shittyartworks" target="_blank">@shittyartworks</a>
-    </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var carousel = $('.carousel');
+
+        carousel.slick({
+          draggable: false,
+          centerMode: true,
+          arrows: false
+        });
+
+        $('.slick-prev').click(function() { carousel.slick('slickPrev') });
+        $('.slick-next').click(function() { carousel.slick('slickNext') });
+      });
+    </script>
   </body>
 </html>
