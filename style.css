@@ -1,9 +1,31 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
+    /*font-family: $base-font-family;*/
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.45;
+    -webkit-text-size-adjust: 100%;
+
     margin-top: 40px;
 }
 
+@media all and (max-width: 800px){
+  body {
+    font-size: 13px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
 h1 {
-    font-size: 72px;
+    font-size: 4.5em;
     font-family: 'Slabo 27px', serif;
     text-align: center;
     padding: 0;
@@ -11,7 +33,7 @@ h1 {
 }
 
 .preface {
-    font-size: 42px;
+    font-size: 2.6em;
     font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     padding: 0;
@@ -30,7 +52,7 @@ h1 {
 }
 
 .foreword {
-    font-size: 24px;
+    font-size: 1.5em;
     font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     padding: 0;
@@ -52,21 +74,18 @@ h1 {
     -moz-user-select: none;
 }
 
-.slick-track {
-    height: 80px;
-}
-
 .slick-slide {
-    font-size: 32px;
+    font-size: 2em;
     letter-spacing: -1px;
-    line-height: 30px;
+    line-height: 1em;
     font-family: 'Patrick Hand SC', cursive;
     text-align: center;
     padding: 0;
     margin: 0;
+    margin-bottom: .5em;
 }
 
-.slick-prev {
+.slick-prev, .slick-next {
     width: 50px;
     height: 50px;
     background-size: 40px auto;
@@ -78,12 +97,5 @@ h1 {
 }
 
 .slick-next {
-    width: 50px;
-    height: 50px;
-    background-size: 40px auto;
     background-image: url("assets/right.png");
-    background-repeat: no-repeat;
-    border: medium none;
-    background-color: transparent;
-    color: transparent;
 }
