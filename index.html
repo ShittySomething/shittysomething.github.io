@@ -31,6 +31,9 @@
     <p class="navigation">
       <button type="button" class="slick-prev"></button><button type="button" class="slick-next"></button>
     </p>
+    <p class="share">
+      <a class="slick-share-twitter" href="#" target="_blank">Tweet</a>
+    </p>
     <p class="foreword">
       follow us <a href="http://twitter.com/shittyartworks" target="_blank">@shittyartworks</a> to keep up to date
     </p>
@@ -46,8 +49,28 @@
           arrows: false
         });
 
+        var slides = $('.slick-slide:not(.slick-cloned)');
+
+        setCurrentSlideShareUrl();
+
         $('.slick-prev').click(function() { carousel.slick('slickPrev') });
         $('.slick-next').click(function() { carousel.slick('slickNext') });
+
+        carousel.on('afterChange', setCurrentSlideShareUrl);
+
+        function setCurrentSlideShareUrl(){
+          var currentSlideIndex = carousel.slick('slickCurrentSlide');
+          var currentSlide = slides.eq(currentSlideIndex);
+          var currentSlideText = currentSlide.html()
+            .replace(/<\/?br>/, ' ')
+            .replace(/<(?:.|\n)*?>/gm, '');
+          var text = quote( encodeURIComponent(currentSlideText) );
+          $('.slick-share-twitter').attr('href', 'https://twitter.com/intent/tweet?text='+ text +'&via=shittyartworks');
+        }
+
+        function quote(text){
+          return '"' + text + '"';
+        }
       });
     </script>
     <script>
