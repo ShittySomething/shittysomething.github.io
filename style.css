@@ -99,3 +99,15 @@ h1 {
 .slick-next {
     background-image: url("assets/right.png");
 }
+
+.share {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.slick-share-twitter {
+  margin-left: -0.7rem;
+  font-family: 'Patrick Hand SC', cursive;
+  color: grey;
+  font-size: 2em;
+}
