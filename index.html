@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,19 +18,8 @@
     <p class="front-image">
       <img src="assets/shittycoder.png" />
     </p>
-    <div class="carousel">
-      <div>You feel like a shitty coder when you spend an entire day provisioning your ec2 instance<br>and you realize <i>"its all about security groups"</i></div>
-      <div>You feel like a shitty coder when you say <i>"I have never touched this code"</i><br/>but git blame states the opposite</div>
-      <div>You feel like a shitty coder when somebody pushes a ton of commits<br/>and you need git bisect to figure out where things break</div>
-      <div>You feel like a shitty coder when you say: <i>"it worked on my machine"</i></div>
-      <div>You feel like a shitty coder when you mess up a git rebase,<br/> force push to master and apologize to your colleagues</div>
-      <div>You feel like a shitty coder when you push changes before leaving the office<br/>and you break the continuous integration</div>
-      <div>You feel like a shitty coder when your manager<br/>tells you to do your work <i>"quick and dirty"</i></div>
-      <div>You feel like a shitty coder when you do a huge refactoring<br/>and one of your colleagues destroys everything the very day after</div>
-      <div>You feel like a shitty coder when you don't refactor a chain of ifs<br/>because you know nobody will appreciate it</div>
-      <div>You feel like a shitty coder when you git pull --rebase<br/>instead of git rebase</div>
-      <div>You feel like a shitty coder when somebody breaks an interface<br/>and you say: <i>"I won't touch this shit"</i></div>
-    </div>
+    <div class="carousel">{% for quote in site.data.quotes %}
+      <div>{{ quote }}</div>{% endfor %}</div>
     <p class="navigation">
       <button type="button" class="slick-prev"></button><button type="button" class="slick-next"></button>
     </p>

@@ -8,7 +8,7 @@ This is the official source repository of [**ShittySomething.com**](http://shitt
 
 1. **Fork** the repository
 2. Create a **Branch**
-3. Open the **index.html** file, search for **carousel** class and put the new phrase at the top of others
+3. Open the **_data/quotes.yml** file and put a new quote at the top
 4. Make a **Pull Request**
 5. Wait for the **Review**
 6. **Share** and **enjoy** your mood at [ShittySomething.com](http://shittysomething.com/)
