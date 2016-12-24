@@ -1,6 +1,6 @@
 # shittysomething.github.io
 
-This is the official repository of [**ShittySomething.com**](http://shittysomething.com/) source code. Everyday, as **computer programmers**, we live episodes at the limit of our patience. This space was created to gather all your moods of the day. If you've ever felt a shitty coder and you wanna share your mood with the world, this is the right place!
+This is the official source repository of [**ShittySomething.com**](http://shittysomething.com/). Everyday, as **computer programmers**, we live episodes at the limit of our patience. This space was created to gather all your moods of the day. If you've ever felt a shitty coder and you wanna share your mood with the world, this is the right place!
 
 ## How to contribute
 
