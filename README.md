@@ -25,5 +25,4 @@ All contents of this repository are licensed under the [**CC BY-SA 4.0**](https:
 ## Artwork
 
 ![bewmacs screenshot](/assets/shittycoder.png?raw=true)
-
-***The Shitty Coder**: is an original artwork handcrafted by [joebew42](https://github.com/joebew42)*
+*The Shitty Coder: it's the original artwork by [joebew42](https://github.com/joebew42)*
