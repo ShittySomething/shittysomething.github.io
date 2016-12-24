@@ -1,0 +1,11 @@
+- You feel like a shitty coder when you spend an entire day provisioning your ec2 instance<br>and you realize <i>"its all about security groups"</i>
+- You feel like a shitty coder when you say <i>"I have never touched this code"</i><br/>but git blame states the opposite
+- You feel like a shitty coder when somebody pushes a ton of commits<br/>and you need git bisect to figure out where things break
+- You feel like a shitty coder when you say&colon; <i>"it worked on my machine"</i>
+- You feel like a shitty coder when you mess up a git rebase,<br/> force push to master and apologize to your colleagues
+- You feel like a shitty coder when you push changes before leaving the office<br/>and you break the continuous integration
+- You feel like a shitty coder when your manager<br/>tells you to do your work <i>"quick and dirty"</i>
+- You feel like a shitty coder when you do a huge refactoring<br/>and one of your colleagues destroys everything the very day after
+- You feel like a shitty coder when you don't refactor a chain of ifs<br/>because you know nobody will appreciate it
+- You feel like a shitty coder when you git pull --rebase<br/>instead of git rebase
+- You feel like a shitty coder when somebody breaks an interface<br/>and you say&colon; <i>"I won't touch this shit"</i>
