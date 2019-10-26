@@ -11,3 +11,4 @@
 - You feel like a shitty coder when somebody breaks an interface<br/>and you say&colon; <i>"I won't touch this shit"</i>
 - You feel like a shitty coder when spend a whole day writing a <br/>failing UI test
 - You feel like a shitty coder when you approve a pull request<br/> even when the CI fails
+- You feel like a shitty coder when you spent the last two days on a bug <br/> due to duplicated code not consistently changed
